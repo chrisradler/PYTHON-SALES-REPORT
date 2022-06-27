@@ -1,0 +1,4 @@
+Team,GrossRevenue
+Brooklyn Nets,7521717.5
+Miami Heat,6988395.0
+Boston Celtics,5639545.0

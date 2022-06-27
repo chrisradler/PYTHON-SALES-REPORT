@@ -1,0 +1,5 @@
+ProductName,GrossRevenue,TotalUnits,DiscountCost
+Basketball Jersey,18876412.5,380000,218587.5
+Regular Season Ticket,1050000.0,10000,0.0
+Season Ticket Holder (VIP),189000.0,5,61000.0
+Season Ticket Holder (Basic),34245.0,4,1755.0
