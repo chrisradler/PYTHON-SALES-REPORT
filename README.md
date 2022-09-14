@@ -9,29 +9,29 @@ does contain a header with the field names.
 
 (Sales.csv) The Sales file is a comma-separated text file where each line contains information about a unique sale.
 The fields of the file are as follows:
- SaleId – an integer uniquely identifying the sale
- ProductId – an integer identifying the Product (matches the ProductId from the Product Master)
- TeamId – an integer identifying the Sales Team (matches the TeamId from the Team Map)
- Quantity – an integer representing how many lots of the product were sold
- Discount – a floating point discount percentage given on the sale (e.g. 2.5% discount as “2.50”)
+- SaleId – an integer uniquely identifying the sale
+- ProductId – an integer identifying the Product (matches the ProductId from the Product Master)
+- TeamId – an integer identifying the Sales Team (matches the TeamId from the Team Map)
+- Quantity – an integer representing how many lots of the product were sold
+- Discount – a floating point discount percentage given on the sale (e.g. 2.5% discount as “2.50”)
 All of the numerical fields may be assumed to be positive. The file does not contain a header with the field
 names.
 
 (ProductMaster.csv) The Product Master file is a comma-separated text file where each line contains information about a
 unique product. The fields of the file are as follows:
- ProductId – an integer uniquely identifying the Product
- Name – a string name of the Product
- Price – a floating point price at which the Product is sold (per unit, not per lot)
- LotSize – an integer representing the number of products sold in a single lot
+- ProductId – an integer uniquely identifying the Product
+- Name – a string name of the Product
+- Price – a floating point price at which the Product is sold (per unit, not per lot)
+- LotSize – an integer representing the number of products sold in a single lot
 The numerical fields may be assumed to be positive. The string fields are not quoted and may be assumed to
 not contain commas or non-ASCII characters. The file does not contain a header.
 
 (ProductReport.txt) The Product Report file is a comma-separated text file where each line summarizes the sales of a single
 Product and contains four values as follows:
- Name – name of the Product
- GrossRevenue – gross revenue of sales of the Product
- TotalUnits – total number of units sold in the Product
- DiscountCost – total cost of all discounts provided on sales of the Product
+- Name – name of the Product
+- GrossRevenue – gross revenue of sales of the Product
+- TotalUnits – total number of units sold in the Product
+- DiscountCost – total cost of all discounts provided on sales of the Product
 The file should contain a header with the field names, and the products should be provided in descending order
 of their gross revenue. An example file is as follows:
 
